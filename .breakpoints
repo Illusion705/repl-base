@@ -1,0 +1,20 @@
+{
+  "files": {
+    "public/components/header/header.html": [
+      {
+        "id": "bfeeba83-41f1-437f-a424-ebfea9d0a548",
+        "line": 9,
+        "version": 577,
+        "index": 385
+      }
+    ],
+    "router.js": [
+      {
+        "id": "f7bfb05b-c451-45bd-b4dc-56ead9f325b3",
+        "line": 1,
+        "version": 1,
+        "index": 0
+      }
+    ]
+  }
+}

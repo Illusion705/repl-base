@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #273040;
+  border-bottom: 1px solid #525861;
+  position: fixed;
+}
+
+#header-options {
+  height: 100%;
+  width: 175px;
+  display: flex;
+  justify-content: space-between;
+  border-collapse: collapse;
+}
+
+#header-logo {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+
+#header-search {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  width: 30%;
+  transition: background 500ms, color 500ms;
+}
+
+#header-search:focus {
+  outline: none;
+  background: #dfe2e8 !important;
+  color: #334152;
+}
+
+#header-options > a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 500ms, color 500ms;
+  border-right: 1px solid #1d2430;
+}
+
+#header-login {
+  border-left: 1px solid #1d2430;
+}
+
+#header-options > a:hover {
+  background: #677ea7;
+  color: #273040;
+}

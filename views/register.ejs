@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/main.css" />
+    <link rel="stylesheet" href="/public/css/register.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div id="header"></div>
+    <main>
+      <h1>Register</h1>
+      <h4 id="step">Step 1: Account Details</h4>
+      <form id="register-form">
+        <div id="account-info">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" placeholder="Enter a Username" autocomplete="off" maxlength="20" />
+          <p id="username-alert"></p>
+
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" placeholder="Enter a Password" maxlength="100" />
+          <p id="password-alert"></p>
+
+          <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" maxlength="100" />
+          <p id="confirm-password-alert"></p>
+
+          <div id="show-password-container">
+            <label for="show-password">Show Password</label>
+            <input type="checkbox" name="show-password" id="show-password" />
+          </div>
+          <button type="button" id="next-button">Next</button>
+        </div>
+        <div id="connect-replit-account">
+          test
+        </div>
+      </form>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/public/js/main.js"></script>
+    <script src="/public/js/register.js"></script>
+  </body>
+</html>
